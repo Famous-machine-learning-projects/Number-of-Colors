@@ -10,4 +10,4 @@ for y in range(height):
         pixel_color = tuple(image_rgb[y, x])
         unique_colors.add(pixel_color)
 
-  print(len(unique_colors))
+print(len(unique_colors))
